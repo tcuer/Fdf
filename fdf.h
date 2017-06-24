@@ -6,7 +6,7 @@
 /*   By: tcuer <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/23 11:38:34 by tcuer             #+#    #+#             */
-/*   Updated: 2016/10/04 15:26:26 by tcuer            ###   ########.fr       */
+/*   Updated: 2017/06/24 18:30:33 by tcuer            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <fcntl.h>
 # include "libft/libft.h"
 # include <math.h>
+# include "minilibx_macos/mlx.h"
 # define ENDL '\n'
 
 typedef struct		s_tab

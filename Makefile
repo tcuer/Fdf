@@ -6,7 +6,7 @@
 #    By: tcuer <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/05/04 15:45:58 by tcuer             #+#    #+#              #
-#    Updated: 2016/10/04 15:16:54 by tcuer            ###   ########.fr        #
+#    Updated: 2017/06/24 18:29:27 by tcuer            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ all : $(NAME)
 
 $(NAME) : $(OBJECT)
 	@echo "Compilation Fdf"
-	@$(MKEX) $(NAME) $(OBJECT)  -lmlx -framework OpenGL -framework AppKit -L libft/ -lft
+	@$(MKEX) $(NAME) $(OBJECT)  ./minilibx_macos/libmlx.a -framework OpenGL -framework AppKit -L libft/ -lft
 	@echo "Done"
 
 $(OBJECT) :
